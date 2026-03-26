@@ -1,135 +1,167 @@
 {
   "basics": {
-    "name": "Fielding Johnston",
-    "label": "Senior Software Engineer with AI and Systems Expertise",
-    "email": "fielding@justfielding.com",
-    "phone": "(479)461-1996",
-    "url": "justfielding.com",
-    "summary": "A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.",
+    "name": "Umasankari Suresh",
+    "label": "AI & Data Product Executive | Enterprise Platform Leader",
+    "email": "theumasuresh@gmail.com",
+    "phone": "732.666.5147",
+    "location": {
+      "city": "Dallas",
+      "region": "TX"
+    },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "fielding",
-        "url": "github.com/fielding"
-      },
-      {
         "network": "LinkedIn",
-        "username": "Fielding Johnston",
-        "url": "https://www.linkedin.com/in/fieldingjohnston/"
+        "username": "umasankari",
+        "url": "https://linkedin.com/in/umasankari"
       }
-    ]
+    ],
+    "summary": "Product executive with 15+ years building enterprise data and AI platforms that drive measurable business outcomes. Built EY’s IMPACT platform from 0-to-1, delivering $12M+ annual cloud savings and increasing platform adoption from <20% to 75%+. Known for translating complex, ambiguous data ecosystems into high-ROI product roadmaps with full strategy-to-execution traceability."
   },
+
+  "skills": [
+    {
+      "name": "Product Leadership",
+      "keywords": [
+        "Product Strategy & Vision",
+        "0-to-1 Platform Development",
+        "Roadmap Prioritization",
+        "Product Discovery",
+        "GTM Planning",
+        "Platform Modernization"
+      ]
+    },
+    {
+      "name": "AI & Data",
+      "keywords": [
+        "Model Context Protocol (MCP)",
+        "Zero-ETL Integration",
+        "Semantic Layer Governance",
+        "AI-Driven Schema Discovery",
+        "Autonomous Data Mapping",
+        "Self-Healing Analytics",
+        "Metadata-Driven Observability"
+      ]
+    },
+    {
+      "name": "FinOps",
+      "keywords": [
+        "Azure FinOps Framework",
+        "Cloud Cost Attribution",
+        "Unit Economics",
+        "Cost Visibility",
+        "Duplicative Tooling Elimination"
+      ]
+    },
+    {
+      "name": "Delivery & Governance",
+      "keywords": [
+        "SAFe & Agile Leadership",
+        "PI Planning",
+        "SLTs / SLOs / SLAs",
+        "KPI Governance",
+        "Cross-Functional Leadership",
+        "Information Governance"
+      ]
+    },
+    {
+      "name": "Tech Stack",
+      "keywords": [
+        "Azure Data Lake",
+        "Microsoft Fabric",
+        "Power BI",
+        "Azure DevOps (ADO)",
+        "Aha!",
+        "SQL",
+        "API Integration"
+      ]
+    }
+  ],
+
   "work": [
     {
-      "name": "Freed",
-      "position": "Senior Software Engineer",
-      "startDate": "2025-09",
+      "name": "Ernst & Young LLP",
+      "position": "Associate Director, Product & Data Strategy Leadership",
+      "location": "Dallas, TX",
+      "startDate": "2020-04",
       "endDate": "Present",
       "highlights": [
-        "Founding member of a 4-person team that built a greenfield patient communications platform; selected as the company's top strategic bet and scaled to a larger team.",
-        "Built end-to-end voice and SMS infrastructure including patient identification with dual validation, AI-initiated call transfer, two-way SMS with TCPA-compliant consent, and PHI screening via LLM.",
-        "Shipped BigQuery analytics pipeline as source of truth for pilot metrics, integrating sentiment analysis and call evaluation criteria, and fixing duration reporting accuracy from 0% to 100%.",
-        "Designed care collaboration workflows with PostgreSQL RLS and role-based access, enabling multi-clinician visit collaboration with realtime patient updates.",
-        "Created and shipped '12 Business Days of AI,' a 12-day internal engineering campaign with guest contributors teaching advanced AI patterns, shifting the team from shadow AI usage to documented shared mastery."
-      ],
-      "skills": "TypeScript, React, Supabase, PostgreSQL, Twilio, ElevenLabs, OpenAI Realtime, BigQuery, tRPC, GraphQL, GKE, Playwright, GitHub Actions"
+        "Built the IMPACT platform from 0-to-1, unifying telemetry, cost, and adoption data into a single enterprise insights platform; increased adoption from <20% to 75%+.",
+        "Delivered $8M–$12M in annual cloud savings by establishing a comprehensive Azure FinOps framework and achieving 100% cost visibility across 20+ global teams.",
+        "Reduced reporting cycle time by 90% (14 days to <24 hours) through analytics modernization on Azure Data Lake and Power BI.",
+        "Avoided $2.7M in duplicative tooling costs by centralizing dashboards and enabling cross-service-line reuse.",
+        "Designed AI-native data ecosystem architecture using Zero-ETL patterns and MCP, reducing projected engineering overhead by 40%.",
+        "Improved customer retention by 30% through advanced funnel analysis and statistical modeling.",
+        "Authored the 'Journey to PI Planning' playbook, improving planning readiness by 30% across a 30+ person global PM/PO organization.",
+        "Established full strategy-to-execution traceability via Aha! → Azure DevOps hierarchy and built KPI ecosystem (SLTs/SLOs/SLAs).",
+        "Shifted executive alignment through Story-Led Demos emphasizing business value over technical updates."
+      ]
     },
     {
-      "name": "Nesa",
-      "position": "Vice President of Engineering",
-      "startDate": "2023-04",
-      "endDate": "2025-08",
-      "highlights": [
-        "Architected a distributed inference framework for 120,000 models across heterogeneous hardware, handling up to 2M inference requests in a single day.",
-        "Designed and implemented Nesa's layer 1 blockchain, enabling decentralized compute for AI workloads.",
-        "Developed telemetry pipeline using NATS.io and Prometheus to monitor thousands of nodes.",
-        "Led secure containerization for user-submitted models.",
-        "Contributed to equivariant encryption (EE) for end-to-end private AI inference with zero-latency overhead.",
-        "Developed reinforcement learning system for dynamic model assignment.",
-        "Contributed to open-source projects including xFusers and nats.py."
-      ],
-      "skills": "Python, CUDA, NATS.io, Prometheus, Docker, blockchain, distributed systems, PyTorch, LLMs, Hugging Face, TypeScript, Git, Linux"
-    },
-    {
-      "name": "OpesSky",
-      "position": "Lead Software Engineer & Director of Design and Development",
-      "startDate": "2022-02",
-      "endDate": "2023-04",
-      "highlights": [
-        "Led Unity-based lunar colony simulation game development.",
-        "Designed and implemented 3D environments and shaders.",
-        "Built AI systems for dynamic NPCs with procedural behaviors.",
-        "Directed art team and coordinated UI/UX integration."
-      ],
-      "skills": "Unity, C#, 3D programming, GLSL, AI, game design, JavaScript"
-    },
-    {
-      "name": "Vidy",
-      "position": "Lead & Senior Frontend Engineer",
-      "startDate": "2019-06",
-      "endDate": "2022-02",
+      "name": "Cognizant Technology Solutions",
+      "location": "Plano, TX",
+      "startDate": "2004",
+      "endDate": "2020",
       "roles": [
         {
-          "title": "Lead Frontend Engineer",
-          "startDate": "2020",
-          "endDate": "2022",
+          "title": "Senior Business Consulting Analyst & Functional Lead",
+          "startDate": "2018",
+          "endDate": "2020",
           "highlights": [
-            "Refactored codebase to Svelte, improving performance for 14M+ monthly users.",
-            "Built components for scalable real-time video and data applications.",
-            "Developed custodial wallet system for user transactions.",
-            "Implemented NLP for ad placement to boost engagement."
+            "Defined 2030 data technology roadmap and established Innovation CoE for Fortune 500 clients.",
+            "Restructured global data architecture, delivering BI solutions that reduced manual labor by 360+ hours.",
+            "Owned product roadmaps bridging legacy systems with future-state architectures."
           ]
         },
         {
-          "title": "Senior Software Engineer",
-          "startDate": "2019",
-          "endDate": "2020",
+          "title": "Senior Business Consultant & Application Delivery Lead",
+          "startDate": "2016",
+          "endDate": "2018",
           "highlights": [
-            "Built scalable APIs and web apps for real-time video.",
-            "Led adoption of modern JS frameworks.",
-            "Engineered fine-grained reactive vanilla JS framework."
+            "Introduced automated product roadmaps using Tableau and Power BI, reducing quarterly planning time by >10%.",
+            "Consolidated cross-functional data requirements and owned systems design for major initiatives.",
+            "Led and mentored analysts to improve information delivery efficiency."
+          ]
+        },
+        {
+          "title": "Enterprise Business Analyst Lead",
+          "startDate": "2013",
+          "endDate": "2016",
+          "highlights": [
+            "Architected MDM frameworks for M&A data integration, increasing sales of acquired products.",
+            "Improved operational efficiency by 15% within two months across parallel programs.",
+            "Performed extensive data profiling and facilitated global data governance workshops."
+          ]
+        },
+        {
+          "title": "Technical Business Analyst & Project Lead",
+          "startDate": "2004",
+          "endDate": "2013",
+          "highlights": [
+            "Launched a scalable POS system replacing legacy infrastructure, improving fulfillment and customer satisfaction.",
+            "Managed multi-year project execution with 100% traceability from requirements to implementation.",
+            "Modernized legacy processes and established best practices for installation order management."
           ]
         }
-      ],
-      "skills": "JavaScript, Svelte, TypeScript, React, HTML, CSS, NLP"
-    },
-    {
-      "name": "justFielding",
-      "position": "Founder and Software Engineer",
-      "startDate": "2009-01",
-      "endDate": "2019-06",
-      "highlights": [
-        "Built and scaled web apps integrating React and Three.js.",
-        "Advocated open-source frameworks to reduce tech debt.",
-        "Managed technical, design, and business operations."
-      ],
-      "skills": "JavaScript, React, Three.js, Node.js, C++, Nginx, Redis, Docker"
+      ]
     }
   ],
-  "publications": [
+
+  "education": [
     {
-      "title": "Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments",
-      "authors": "Y. Du, Z. Wang, A. Farhan, F. Johnston, et al.",
-      "venue": "COLM 2025",
-      "arxiv": "2410.21340"
+      "institution": "Madurai Kamaraj University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "SAFe Product Owner / Product Manager (POPM)",
+      "issuer": "Scaled Agile, Inc."
     },
     {
-      "title": "Encrypted Large Model Inference: The Equivariant Encryption Paradigm",
-      "authors": "J. Buban, H. Zhang, C. Angione, F. Johnston, et al.",
-      "venue": "arXiv preprint, 2025",
-      "arxiv": "2502.01013"
-    },
-    {
-      "title": "Model Agnostic Hybrid Sharding for Heterogeneous Distributed Inference",
-      "authors": "C. Angione, Y. Zhao, H. Yang, F. Johnston, et al.",
-      "venue": "MLforSys2024",
-      "arxiv": "2407.19775"
-    },
-    {
-      "title": "Towards Secure and Private AI: A Framework for Decentralized Inference",
-      "authors": "H. Zhang, Y. Zhao, C. Yang, F. Johnston, et al.",
-      "venue": "NeurIPS 2024 Workshop RBFM",
-      "arxiv": "2407.19401"
+      "name": "Coaching Through Change",
+      "issuer": "Scaled Agile, Inc."
     }
   ]
 }

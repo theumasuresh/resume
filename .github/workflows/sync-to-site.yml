@@ -6,6 +6,7 @@ on:
       - 'resume.json'
       - 'generate.py'
     branches: [master]
+    workflow_dispatch:
 
 jobs:
   sync:

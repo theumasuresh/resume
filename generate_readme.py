@@ -39,10 +39,13 @@ def generate():
     # Contact
     profiles = {p["network"]: p["url"] for p in b.get("profiles", [])}
     contact = [
-        f"[📄 PDF](https://justfielding.com/cv.pdf)",
-        f"[{b['email']}](mailto:{b['email']})",
-        f"[{b['url']}](https://{b['url']})",
+        f"[📄 PDF](https://github.com/theumasuresh/resume/blob/master/resume.pdf)",
+        f"[{b.get('email', '')}](mailto:{b.get('email', '')})"
     ]
+    
+    # Safely add the website URL only if it exists
+    if b.get('url'):
+        contact.append(f"[{b['url']}](https://{b['url']})")
     if "GitHub" in profiles:
         contact.append(f"[GitHub](https://{profiles['GitHub']})")
     if "LinkedIn" in profiles:

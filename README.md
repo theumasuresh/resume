@@ -2,7 +2,7 @@
 
 **Senior Software Engineer with AI and Systems Expertise**
 
-[📄 PDF](https://justfielding.com/cv.pdf) | [fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
+[📄 PDF](https://github.com/theumasuresh/resume/blob/master/resume.pdf) | [uma@umasuresh.com](mailto:uma@umasuresh.com) | [umasuresh.com](https://umasuresh.com) | [GitHub](https://github.com/theumasuresh) | [LinkedIn](https://www.linkedin.com/in/umasankari/)
 
 ---
 

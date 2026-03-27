@@ -64,7 +64,7 @@ def generate():
     lines.append("")
 
     for job in work:
-        lines.append(f"### {job['position']}")
+        lines.append(f"### {job.get('position', 'Role')}")
         start = job["startDate"][:4]
         end = job["endDate"] if job["endDate"] == "Present" else job["endDate"][:4]
         lines.append(f"**{job['name']}** | {start} - {end}")

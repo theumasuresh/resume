@@ -6,7 +6,8 @@ on:
       - 'resume.json'
       - 'generate_readme.py'
     branches: [master]
-    workflow_dispatch:
+  workflow_dispatch:
+    
 
 jobs:
   generate:

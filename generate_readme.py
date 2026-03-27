@@ -88,15 +88,6 @@ def generate():
             lines.append(tags)
         lines.append("")
 
-    # Publications
-    publications = data.get("publications", [])
-
-    lines.append(f"## {to_bold_sans('Publications')}")
-    lines.append("")
-    for pub in publications:
-        lines.append(f"- **[{pub['title']}](https://arxiv.org/abs/{pub['arxiv']})**")
-        lines.append(f"  {pub['authors']} *{pub['venue']}*")
-        lines.append("")
 
     # :)
     lines.append("<!--")
